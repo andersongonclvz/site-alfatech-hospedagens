@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* General Settings */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+.max-width {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+/* Header */
+#top {
+    width: 100%;
+    height: 18vh;
+    padding: 0px 20px;
+    background-color: #2f86d6;
+}
+
+.top-logo {
+    display: flex;
+}
+
+.top-logo div {
+    margin-left: 15px;
+}
+
+.top-logo img {
+    width: 80px;
+}
+
+.top-logo p {
+    color: #fff;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    transition: all 0.5s ease-in-out;
+    color: #fff;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+/* Table */
+#main-content {
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .table-header, td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+  }
+  
+  .table-header p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #a8a4a4;
+  }
+  
+  .table-header h3 {
+    font-size: 36px;
+  }
+  
+  .table th:first-child {
+    visibility: hidden;
+  }
+  
+  .table th:hover {
+    background-color: #2f86d6;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .table:nth-child(1) {
+    background-color: #f1f3f7;
+  }
+  
+  .table-rows td:nth-child(1) {
+    background-color: #f1f3f7;
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  .blue-marker::before {
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #2f86d6;
+    border-radius: 100px;
+  }
+
+  /* Footer */
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #2f86d6;
+}
+
+.footer-logo div {
+    margin-left: 15px;
+}
+
+.footer-logo img {
+    width: 80px;
+}
+
+.footer-logo p {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Footer */
+.copyright {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: #1d2733;
+}
+
+.copyright p{
+    color: #fff;
+}
+
+.copyright span{
+    color: #2f86d6;
+}
